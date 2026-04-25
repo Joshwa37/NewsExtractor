@@ -1,0 +1,23 @@
+# 1. Secret Vault (CRITICAL)
+# This prevents your API keys from leaking to GitHub
+.env
+
+# 2. The Python Toolbox
+# This prevents 100MB+ of library files from being uploaded
+.venv/
+env/
+venv/
+ENV/
+
+# 3. Python "Trash" 
+# These are temporary files Python creates to run faster
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. OS/Editor specific
+# Keeps your repo clean from system-specific files
+.vscode/
+.DS_Store
+Thumbs.db
