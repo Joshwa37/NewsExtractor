@@ -21,3 +21,5 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+https://newsdata.io/api/1/archive?apikey=pub_06060ac67c04493a9156ec683285802e&q=example&language=en&from_date=2026-04-19&to_date=2026-04-26
